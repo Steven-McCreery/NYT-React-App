@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SearchButton from './SearchButton'
 
 
 class FirstComponent extends Component {
@@ -13,14 +12,8 @@ class FirstComponent extends Component {
 						<label for="nytArticles" class="pull-left">Topic to Search:</label>
 						<input type="nytArticles" class="form-control" id="nytArticles" />
 					</div>
-								
-					{/*<SearchButton />*/}
 
 				</form>
-
-	        	{/*<br />*/}
-
-	        	{/*{this.props.test}*/}
 
 			</div>
     	);
