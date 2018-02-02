@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-// import ReturnedArticle from "./ReturnedArticle.js"   
+import NYTT from "../NYT-T-Logo.png";
 
 
 class ReturnedArticle extends Component {
   render() {
     return (
-      <div data-type="ReturnedArticle" class="well" style={{backgroundColor:'lightgreen'}}>
-        New Room for Article Content!
-        <br />
-        {this.props.test}
+      <div data-type="ReturnedArticle" class="well" style={{backgroundColor:'lightgreen', minHeight:"100px"}}>
+        <div class="returnedText">
+          <img class='articleIcon pull-left' src={NYTT} style={{width:'50px'}} />
+          New Room for Article Content!
+          <button class="pull-right button" style={{backgroundColor:'black', color:'white', fontWeight:'bold', outline:'2px outset darkturquoise', borderRadius:'0px', height:'50px'}}>Save Ariticle</button>
+          <br />
+          {this.props.test}
+        </div>
     	</div>
 
     );

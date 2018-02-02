@@ -19,16 +19,21 @@ class App extends Component {
         <p className="App-intro">
           Relevant Web Articles Below:
         </p>
-        <div className="container">
-          <div className="well">
+        <div className="container" >
+
+          <div className="well" style={{backgroundColor:'black', color:'white'}}>
             <FirstComponent test="Hello World!"/>
           </div>
+
           <SearchButton />
         </div>
-          <hr />
-          <div className="well">
-            <SecondComponent test="Hello World!"/>
-          </div>
+
+        <hr />
+
+        <div className="well" style={{backgroundColor:'black'}}>
+          <SecondComponent test="Hello World!"/>
+        </div>
+
       </div>
     );
   }
