@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class FirstComponent extends Component {
 	render() {
 	    return (
-			<div className="Component-1">
+			<div className="Component-1" >
 
 				<form>
 					
