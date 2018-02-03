@@ -6,8 +6,6 @@ class SearchButton extends Component {
     return (
       <button className="scrapeButton btn btn-lg btn-primary pull-left">
         Find Those Articles!
-        {/*<br />
-        Scrape and Load*/}
       </button>
     );
   }
